@@ -1,12 +1,85 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <title>Ryan Pearce - Assignment #</title>
-        <link rel="stylesheet" type="text/css" href="Main.css">
-    </head>
+<html lang="en">
+	<head>
+		<title>Ryan Pearce - Assignment #4</title>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+		<link rel="stylesheet" type="text/css" href="Main.css">
+	</head>
 
-    <body>
-        
-    <script type="text/javascript" src="Main.js"></script>
-    </body>
+	<body>
+		<header class="container-fluid rounded mx-2 p-2 bg-primary">
+			<div class="hero rounded">
+				<div class="container">
+					<div class="hero-content">
+						<div class="row">
+							<div class="col align-self-start">
+								<h1>Hello!</h1>
+							</div>
+							<div class="col align-self-end">
+								<p>Welcome to the assignment gallery! This is all the images I used for each and every one of my assignments along.</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</header>
+
+		<main class="container-fluid m-2 py-3 px-4 bg-secondary">
+			<h2>Gallery (All Images)!</h2>
+			<div id="demo" class="carousel slide" data-bs-ride="carousel">
+				<div class="carousel-indicators">
+					<button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
+					<button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
+					<button type="button" data-bs-target="#demo" data-bs-slide-to="2"></button>
+				</div>
+
+				<div class="carousel-inner">
+					<div class="carousel-item active">
+						<img src="la.jpg" alt="Los Angeles" class="d-block w-100">
+					</div>
+				
+					<div class="carousel-item">
+						<img src="chicago.jpg" alt="Chicago" class="d-block w-100">
+					</div>
+					<div class="carousel-item">
+						<img src="ny.jpg" alt="New York" class="d-block w-100">
+					</div>
+				</div>
+
+				<button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
+					<span class="carousel-control-prev-icon"></span>
+				</button>
+				<button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
+					<span class="carousel-control-next-icon"></span>
+				</button>
+			</div>
+
+			<h2>Gallery (Info)!</h2>
+			<div class="row rounded p-3 bg-primary">
+				<div class="card m-2 p-3 bg-light" style="width: 18rem;">
+					Hello!
+				</div>
+				<div class="card m-2 p-3 bg-light" style="width: 18rem;">
+					Hello!
+				</div>
+				<div class="card m-2 p-3 bg-light" style="width: 18rem;">
+					Hello!
+				</div>
+				<div class="card m-2 p-3 bg-light" style="width: 18rem;">
+					Hello!
+				</div>
+				<div class="card m-2 p-3 bg-light" style="width: 18rem;">
+					Hello!
+				</div>
+				<div class="card m-2 p-3 bg-light" style="width: 18rem;">
+					Hello!
+				</div>
+			</div>
+		</main>
+
+	<script type="text/javascript" src="Main.js"></script>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+	</body>
 </html>

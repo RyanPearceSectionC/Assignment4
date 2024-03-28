@@ -1,0 +1,30 @@
+body
+{
+	background-color: lightgrey;
+	color: white;
+}
+
+.hero
+{
+	min-height: 20vh;
+	position: relative;
+	background: #000 url(https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.freewebheaders.com%2Fwp-content%2Fgallery%2Fartistic-abstract%2Fcreative-design-fractal-art-abstract-header-2095.jpg&f=1&nofb=1&ipt=7045d22498e5f3d549838a36acf601bc07916a2306f325e774e8cc0079dc51ac&ipo=images) center center no-repeat;
+	background-size: cover;
+}
+
+.hero:before
+{
+	content:"";
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	background: linear-gradient(to top, rgba(0,0,0,0.8) 0%, rgba(0,0,0,0) 100%);
+}
+.hero-content
+{
+	position: absolute;
+	bottom: 15px;
+	color #fff;
+}
